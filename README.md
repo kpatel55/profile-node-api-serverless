@@ -36,7 +36,7 @@ After successful deployment, you can create a new profile by calling the corresp
 curl --request POST 'https://xxxxxx.execute-api.us-east-1.amazonaws.com/profiles/create' --header 'Content-Type: application/json' --data-raw '{"name": "John Doe", "title": "Owner", "bio": "Owner and creater of sample organization"}'
 ```
 
-You can later retrieve the user by `userId` by calling the following endpoint:
+You can later retrieve the profile by `id` by calling the following endpoint:
 
 ```bash
 curl https://xxxxxxx.execute-api.us-east-1.amazonaws.com/profiles/get/id
